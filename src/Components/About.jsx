@@ -61,7 +61,7 @@ const About = ({name}) => {
         </Card>
       </div>
       <hr />
-      <p style={{fontWeight:"500"}}>
+      <p id="end-section" style={{}}>
         Do enim cillum ea aliquip quis nostrud sint incididunt elit Lorem labore
         officia nisi exercitation. Voluptate nostrud amet irure commodo est
         aliqua adipisicing et eu qui nisi sit aliquip Lorem.
