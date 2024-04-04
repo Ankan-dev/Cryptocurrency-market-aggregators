@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Russo+One&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  width: 100vw;
+  overflow-x: hidden;
+}
+.main-container{
+  width: 100vw;
+  min-height: 100vh;
+  background-color: rgb(224, 224, 224);
+}
+
+.header{
+  width: 100vw;
+  height: 8vh;
+  position: fixed;
+  z-index: 99;
+  top: 0;
+}
+
+p{
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+p span{
+  font-weight: 500;
+}
+
+.main{
+  width: 100vw;
+  min-height:90vh ;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 8vh;
+}
+.first{
+  width: 70%;
+  min-height:calc(100% - 10vh) ;
+}
+
+.second{
+  width: 30%;
+  min-height:calc(100% - 10vh) ;
+  position: fixed;
+  right: 0;
+  padding-top: 45px;
+  padding-left: 30px;
+  padding-bottom: 30px;
+}
+
+.footer{
+    width: 100%;
+}
+
+
+
+.nav-main{
+    width: 95%;
+    height: 8vh;
+    margin-left: 5%;
+    border-style: none none solid none;
+    border-color: rgb(200, 197, 197);
+    border-width: 1px;
+}
+.nav-main ul{
+    display: flex;
+    justify-content: left;
+    list-style-type: none;
+    height: 100%;
+    gap: 30px;
+    width: fit-content;
+    padding-left: 0;
+}
+
+.nav-main ul li div{
+    height: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: larger;
+    display: flex;
+    align-items: end;
+    padding-bottom: 10px;
+    padding-right: 10px;
+   display: flex;
+   border: none;
+   background-color: transparent;
+}
+
+.nav-main ul li div a{
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-width:600px) {
+  .header{
+    width: 100vw;
+    height: 9vh;
+    position: fixed;
+    top: 0;
+  }
+  .main{
+    margin-top: 9vh;
+    padding-top: 1.5vh;
+   
+  }
+  .second{
+    display: none;
+  }
+  .first{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav-main{
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+
+
+  .nav-main::-webkit-scrollbar{
+    display: none;
+  }
+  #about-bitcoin{
+    width: 39vw;
+  }
+  #our-teams{
+    width: 29.5vw;
+  }
+  #important{
+    width: 43.5vw;
+  }
+}

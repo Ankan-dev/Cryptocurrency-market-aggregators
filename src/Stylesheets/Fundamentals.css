@@ -1,0 +1,169 @@
+.fundamentals-main {
+  width: 95%;
+  height: 70vh;
+  background-color: white;
+  margin-top: 30px;
+  border-radius: 10px;
+  margin-left: 5%;
+  padding-top: 30px;
+  overflow: hidden;
+}
+
+.performance {
+  width: 100%;
+  height: 30%;
+}
+.fundamentals {
+  width: 100%;
+  height: 70%;
+
+  padding-top: 20px;
+}
+
+.fundamentals h3 {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+.container {
+  display: flex;
+  width: 100%;
+  height: 40%;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.prog {
+  width: 70%;
+  height: 30%;
+}
+
+.list-Info {
+  width: 100%;
+  display: flex;
+  padding-left: 50px;
+  padding-right: 50px;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.list-Info ul {
+  list-style-type: none;
+}
+
+.list-Info ul li div {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  font-size: larger;
+}
+
+#perf-head {
+  margin-left: 50px;
+}
+#today-low-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.prog-bar {
+  width: 100%;
+  height: 1.5vh;
+  background-image: linear-gradient(to right, red, orange, yellow, green);
+  border-radius: 50px;
+}
+
+#percent-display {
+  width: fit-content;
+  min-height: 3vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#today-high-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#all-time-low {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#all-time-low {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 600px) {
+  .fundamentals-main {
+    width: 95vw;
+    height: 150vh;
+    margin-left: 0;
+  }
+  #perf-head {
+    padding-bottom: 20px;
+  }
+  #today-low-container {
+    height: fit-content;
+    width: 40vw;
+  }
+  #today-low-container h6 {
+    font-size: 3vw;
+  }
+  #today-low-container p {
+    font-size: 3.5vw;
+  }
+  .prog {
+    width: 80vw;
+  }
+  #percent-display p {
+    font-size: 3.5vw;
+  }
+  #today-high-container {
+    height: fit-content;
+    width: 40vw;
+  }
+  #today-high-container {
+    height: fit-content;
+    width: 40vw;
+  }
+  #today-high-container h6 {
+    font-size: 3vw;
+  }
+  #today-high-container p {
+    font-size: 3.5vw;
+  }
+  #all-time-low {
+    width:45vw;
+  }
+  #all-time-low h6{
+    font-size: 3vw;
+  }
+  #all-time-low p{
+    font-size: 3.5vw;
+  }
+  #all-time-high {
+    width:45vw;
+  }
+  #all-time-high h6{
+    font-size: 3vw;
+  }
+  #all-time-high p{
+    font-size: 3.5vw;
+  }
+
+  .list-Info{
+    padding-left: 0;
+    padding-right: 30px;
+  }
+
+  .performance{
+    height: 20%;
+  }
+}

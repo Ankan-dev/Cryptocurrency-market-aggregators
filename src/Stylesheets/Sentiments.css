@@ -1,0 +1,119 @@
+.sentiments-main{
+    width: 95%;
+    height: 70vh;
+    margin-left: 5%;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upper{
+    width: 90%;
+    height: 60%;
+    padding-top: 20px;
+}
+.lower{
+    width: 90%;
+    height: 40%;
+    padding-top: 20px;
+}
+
+.carousel{
+    width: 100%;
+    height: 70%;
+
+}
+
+ .screen-1{
+    width: 100%;
+    height: 29vh;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.screen-2{
+    width: 100%;
+    height: 29vh;
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.screen-3{
+    width: 100%;
+    height: 29vh;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.carousel-indicators [data-bs-target]{
+    display: none;
+}
+.down-part{
+    width: 100%;
+    height: 84%;
+    display: flex;
+    align-items: center;
+}
+
+.circle{
+    width: 11%;
+    height: 60%;
+    background-color: rgb(234, 249, 244);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+.circle p{
+    font-size: 2vw;
+    font-weight:500;
+    color:rgb(100, 199, 167)
+}
+
+.levels{
+    width: 80%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.buy{
+    width: 90%;
+    height: 33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hold{
+    width: 90%;
+    height: 33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sell{
+    width: 90%;
+    height: 33%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+@media (max-width:600px) {
+    .sentiments-main{
+        width: 95vw;
+        margin-left: 0;
+    }
+}

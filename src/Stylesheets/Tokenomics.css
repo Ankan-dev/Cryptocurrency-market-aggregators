@@ -1,0 +1,31 @@
+.Tokenomics-container{
+    width: 95%;
+    height: 55vh;
+    background-color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    margin-left: 5%;
+    padding-top: 30px;
+    padding-right: 30px;
+}
+
+.charts{
+    width: 95%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.tokenomics-head{
+    margin-left: 55px;
+    margin-bottom: 20px;
+}
+
+.tokenomics-subHead{
+    margin-left: 55px;
+}
+
+.tokenomics-para{
+    margin-left: 55px;
+    font-weight: 500;
+}

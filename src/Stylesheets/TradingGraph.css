@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Russo+One&display=swap");
+
+.graph-main {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  flex-direction: column;
+}
+.line-container {
+  width: 95%;
+  height: 4vh;
+  display: flex;
+  align-items: center;
+  padding-top: 15px;
+}
+.line-container p {
+  font-family: "Poppins", sans-serif;
+}
+.line-container p span {
+  font-family: "Poppins", sans-serif;
+}
+.graph-container {
+  background-color: white;
+  width: 95%;
+  height: 83vh;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-bottom: 5px;
+}
+
+#part-1 {
+  width: 100%;
+  height: "20%";
+}
+#top {
+  display: flex;
+  width: 18vw;
+  align-items: center;
+  gap: 10px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+#coin-symbol {
+  border-radius: 50%;
+  width: 2vw;
+}
+#rank {
+  width: 100px;
+  height: 4vh;
+  background-color: #768396;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-left: 30px;
+  overflow: hidden;
+}
+#rank span{
+  font-size: 95%;
+  font-family: poppins;
+  font-weight: bold;
+  color: white;
+}
+#price-container {
+  display: flex;
+  width: fit-content;
+  height: 47px;
+  align-items: center;
+  gap: 10px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+
+#price {
+  font-weight: 700;
+  margin-top: 5px;
+}
+
+#percent {
+  width: 80px;
+  height: 30px;
+  background-color: rgb(206, 255, 206);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  color: green;
+  border-radius: 5px;
+  margin-left: 20px;
+  padding-top: 5px;
+}
+
+#twenty-four{
+  margin-top:15px;
+}
+
+#india{
+  margin-left:28px;
+}
+
+#part-2{
+  width:90%;
+  height:90%;
+}
+
+@media (max-width: 600px) {
+  .graph-main {
+    height: 50vh;
+  }
+  .line-container {
+    height: 3vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 3px;
+  }
+  .line-container p {
+    font-size: small;
+  }
+  .line-container p span {
+    font-weight: 500;
+  }
+  .graph-container {
+    width: 95vw;
+    height: calc(50vh - 3vh);
+  }
+  #coin-symbol{
+    width: 10vw;
+    height: 5vh;
+  }
+  #rank{
+    display: none;
+  }
+
+}
