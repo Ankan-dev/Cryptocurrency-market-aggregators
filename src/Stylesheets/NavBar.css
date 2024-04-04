@@ -68,7 +68,7 @@ nav {
     display: none;
         width: 30vw;
         height: 100%;
-        padding-top: 5%;
+        padding-top: 3%;
         padding-left: 7%;
 }
 
@@ -80,11 +80,11 @@ nav {
 #menu button {
     width: 100%;
     height: 100%;
-    border: 1px solid black;
+    background-color: transparent;
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 10px;
+    border: none;
 }
 
 
@@ -158,4 +158,14 @@ nav {
         display: block;
         
     }
+    #menu-Two{
+        width: 30vw;
+        height: 220px;
+        right: 0;
+      }
+      #menu-Two div ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
 }

@@ -86,7 +86,7 @@ const App = () => {
               <li>
                 <div id="about-bitcoin">
                 <Link to='#about'>
-                About {name}
+                About <span id="about-name">{name}</span>
                 </Link>
                 </div>
               </li>

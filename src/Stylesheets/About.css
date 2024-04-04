@@ -93,3 +93,20 @@
 #end-section{
   font-weight:500;
 }
+
+@media (max-width:600px) {
+  .About-container {
+    width: 95vw;
+    height: 1500px;
+    margin-left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  #About-heading{
+    font-size: 7vw;
+    margin-top: 10px;
+  }
+  #card-1{
+    margin-bottom:  15px;
+  }
+}

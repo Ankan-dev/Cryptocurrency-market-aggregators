@@ -130,12 +130,15 @@ p span{
     display: none;
   }
   #about-bitcoin{
-    width: 39vw;
+    width: fit-content;
   }
   #our-teams{
     width: 29.5vw;
   }
   #important{
     width: 43.5vw;
+  }
+  #about-name{
+    display: none;
   }
 }

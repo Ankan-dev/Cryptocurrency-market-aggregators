@@ -115,5 +115,17 @@
     .sentiments-main{
         width: 95vw;
         margin-left: 0;
+        padding-bottom: 10px;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    .down-part{
+        flex-direction: column;
+    }
+    .circle{
+        width: 21vw;
+    }
+    .circle p{
+        font-size: 5vw;
     }
 }

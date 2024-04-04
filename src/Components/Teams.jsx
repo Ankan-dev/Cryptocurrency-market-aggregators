@@ -24,24 +24,27 @@ const Teams = () => {
 
   return (
     <div className="Teams-container">
-      <h3 style={{fontWeight:"bold",marginBottom:"10px"}}>Teams</h3>
-      <p style={{fontWeight:"600"}}>
+      <h3 id="Teams-heading">Teams</h3>
+      <p id="Teams-para">
         Sunt pariatur nulla sint sint deserunt tempor et quis tempor ea deserunt
         do pariatur laborum.Ut nulla sint laborum exercitation.Laboris quis
         minim amet qui ullamco velit amet ut adipisicing ullamco aliqua.
       </p>
+      <div id="responsive-time">
       {members.map((elm, index) => {
         return (
           <div key={index} className="members">
             <div className="prof">
-              <img src={elm.image}/>
-              <p style={{fontWeight:"bold"}}>{elm.name}</p>
-              <p style={{fontWeight:"500",color:"#afc0cc"}}>Designation Here</p>
+              <img id="profile-image" src={elm.image}/>
+              <p id="profile-name">{elm.name}</p>
+              <p id="profile-designation">Designation Here</p>
             </div>
-            <div className="description">{elm.desc}</div>
+            <div id="profile-description" className="description">{elm.desc}</div>
           </div>
         );
       })}
+      </div>
+      
     </div>
   );
 };

@@ -29,3 +29,19 @@
     margin-left: 55px;
     font-weight: 500;
 }
+
+@media (max-width:600px) {
+    .Tokenomics-container{
+        width: 95vw;
+        margin-left: 0;
+        height: 850px;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+    .charts{
+        height: 30%;
+    }
+    #apexcharts2tskaas2{
+        width: 95vw;
+    }
+}

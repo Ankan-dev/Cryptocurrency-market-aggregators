@@ -27,7 +27,7 @@ const NavBar = () => {
         <div id="responsive">
         <div id="menu">
           <button onClick={toggleMenu}>
-            <IoMenu style={{ width: "70%", height: "70%" }} />
+            <IoMenu style={{ width: "100%", height: "100%" }} />
           </button>
         </div>
         {flag && (

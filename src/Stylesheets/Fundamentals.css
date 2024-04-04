@@ -103,8 +103,10 @@
 @media (max-width: 600px) {
   .fundamentals-main {
     width: 95vw;
-    height: 150vh;
+    height: 1000px;
     margin-left: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
   }
   #perf-head {
     padding-bottom: 20px;
@@ -166,4 +168,6 @@
   .performance{
     height: 20%;
   }
+
+ 
 }
