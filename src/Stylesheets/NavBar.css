@@ -159,13 +159,33 @@ nav {
         
     }
     #menu-Two{
-        width: 30vw;
-        height: 220px;
+        width: 40vw;
         right: 0;
+        height: 15vh;
+        padding-right: 2%;
       }
       #menu-Two div ul{
+        position: relative;
+      }
+      #menu-Two div ul li{
+        font-size: 60%;
+        width: 100%;
+      }
+      #menu-Two ul li button{
+        width: 90%;
+        height: 50%;
         display: flex;
-        flex-direction: column;
+        justify-content: center;
         align-items: center;
+        overflow: hidden;
+        margin-top: 5%;
+      }
+
+      #menu-Two ul li button p{
+        font-size: 70%;
+        font-weight: 600;
+        position: relative;
+        margin-top: 2vh;
       }
 }
+

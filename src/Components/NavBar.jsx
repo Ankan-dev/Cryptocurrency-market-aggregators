@@ -37,8 +37,11 @@ const NavBar = () => {
                 <li>Crypto Taxes</li>
                 <li>Free Tools</li>
                 <li>Resource Center</li>
+                <li>
+                <button><p>Get Started</p></button>
+                </li>
               </ul>
-              <button>Get Started</button>
+              
             </div>
           </div>
         )}
